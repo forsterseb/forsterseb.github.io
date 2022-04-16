@@ -1,0 +1,178 @@
+.info-card-wrapper {
+  width: 90%;
+  max-width: 60rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+
+.info-card-container:not(.active) {
+  display: none;
+}
+
+.info-card-container > .active {
+  display: block;
+}
+
+.info-header {
+  display: inline-block;
+  width: 100%;
+}
+
+.info-header > .title {
+  float: left;
+}
+
+.info-link > .link {
+  float: right;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.info-link > .link > .link-image {
+  height: 2em;
+  background: white;
+  border-radius: 8px;
+  margin: 2px 2px 2px 5px;
+}
+
+.flex-card-wrapper {
+  width: 90%;
+  max-width: 60rem;
+  height: 70vh;
+  max-height: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+.flex-card-wrapper .flex-card-container {
+  margin: 0 10px 0 0;
+  height: 100%;
+  width: 10%;
+  -webkit-transition: 450ms all ease-in-out;
+  transition: 450ms all ease-in-out;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flex-card-wrapper .flex-card-container.active {
+  width: 70%;
+}
+
+.flex-card-wrapper .flex-card-container.active .overlay h3, .flex-card-wrapper .flex-card-container.active .overlay p {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.flex-card-wrapper .flex-card-container.active .overlay .icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.flex-card-wrapper .flex-card-container.active .overlay .icon img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.flex-card-wrapper .flex-card-container:last-child {
+  margin: 0 0 0 0;
+}
+
+.flex-card-wrapper .flex-card-container .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 9rem;
+  padding: 0 0 2rem 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  -webkit-transition: 450ms all ease-in-out;
+  transition: 450ms all ease-in-out;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.8)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.flex-card-wrapper .flex-card-container .overlay .icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  background-color: #0c1016;
+  -webkit-transition: 450ms all ease-in-out;
+  transition: 450ms all ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-card-wrapper .flex-card-container .overlay .icon img {
+  width: 1.5rem;
+  height: 1.5rem;
+  -webkit-transition: 450ms all ease-in-out;
+  transition: 450ms all ease-in-out;
+}
+
+.flex-card-wrapper .flex-card-container .overlay h3 {
+  top: 0;
+  font-size: 1.8rem;
+  -webkit-transition: 350ms 200ms all ease-in-out;
+  transition: 350ms 200ms all ease-in-out;
+}
+
+.flex-card-wrapper .flex-card-container .overlay p {
+  top: 3rem;
+  font-size: 1.2rem;
+  -webkit-transition: 350ms 300ms all ease-in-out;
+  transition: 350ms 300ms all ease-in-out;
+}
+
+.flex-card-wrapper .flex-card-container .overlay h3, .flex-card-wrapper .flex-card-container .overlay p {
+  color: white;
+  position: absolute;
+  left: 9rem;
+  width: 20rem;
+  opacity: 0;
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+}
+/*# sourceMappingURL=cardslider.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAIQ,kBAJU,CAEd,oBAAoB,AAEf,OAAO,CAAC;EACL,gBAAgB,EAAE,oDAAoD;CAAG;;AALrF,AAOQ,kBAPU,CAEd,oBAAoB,AAKf,OAAO,CAAC;EACL,gBAAgB,EAAE,oDAAoD;CAAG;;AARrF,AAUQ,kBAVU,CAEd,oBAAoB,AAQf,OAAO,CAAC;EACL,gBAAgB,EAAE,oDAAoD;CAAG;;AAXrF,AAaQ,kBAbU,CAEd,oBAAoB,AAWf,OAAO,CAAC;EACL,gBAAgB,EAAE,oDAAoD;CAAG",
+    "sources": [
+        "cardslider_img.sass"
+    ],
+    "names": [],
+    "file": "cardslider_img.css"
+}
