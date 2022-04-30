@@ -318,11 +318,6 @@ nav ul li a img {
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/ibm-plex-sans-thai-looped-v5-latin-ext_latin-regular.eot");
-  src: local("");
-  src: url("../fonts/ibm-plex-sans-thai-looped-v5-latin-ext_latin-regular.eot?#iefix") format("embedded-opentype");
-  src: url("../fonts/ibm-plex-sans-thai-looped-v5-latin-ext_latin-regular.woff2") format("woff2");
-  src: url("../fonts/ibm-plex-sans-thai-looped-v5-latin-ext_latin-regular.woff") format("woff");
-  src: url("../fonts/ibm-plex-sans-thai-looped-v5-latin-ext_latin-regular.ttf") format("truetype");
-  src: url("../fonts/ibm-plex-sans-thai-looped-v5-latin-ext_latin-regular.svg#IBMPlexSansThaiLooped") format("svg");
+  src: local(""), url("../fonts/ibm-plex-sans-thai-looped-v5-latin-ext_latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ibm-plex-sans-thai-looped-v5-latin-ext_latin-regular.woff2") format("woff2"), url("../fonts/ibm-plex-sans-thai-looped-v5-latin-ext_latin-regular.woff") format("woff"), url("../fonts/ibm-plex-sans-thai-looped-v5-latin-ext_latin-regular.ttf") format("truetype"), url("../fonts/ibm-plex-sans-thai-looped-v5-latin-ext_latin-regular.svg#IBMPlexSansThaiLooped") format("svg");
 }
 /*# sourceMappingURL=main.css.map */
